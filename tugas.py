@@ -14,7 +14,7 @@ while True:
         data = client.recv(32)
 
         if len(data) == 0:
-            break
+           
 
         else:
             sys.stdout.write(data.decode())
